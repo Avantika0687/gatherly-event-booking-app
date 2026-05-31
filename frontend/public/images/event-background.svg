@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Event-themed background">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d5f84" />
+      <stop offset="45%" stop-color="#2f8eb7" />
+      <stop offset="100%" stop-color="#59c7ab" />
+    </linearGradient>
+    <radialGradient id="glowOne" cx="18%" cy="22%" r="40%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowTwo" cx="82%" cy="25%" r="35%">
+      <stop offset="0%" stop-color="#c8fff0" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#c8fff0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect width="1600" height="900" fill="url(#glowOne)" />
+  <rect width="1600" height="900" fill="url(#glowTwo)" />
+  <g opacity="0.2" fill="none" stroke="#ffffff" stroke-width="8">
+    <path d="M90 690 C 260 500, 470 500, 650 690" />
+    <path d="M760 760 C 900 580, 1120 560, 1350 760" />
+    <path d="M280 240 C 420 120, 620 140, 740 280" />
+  </g>
+  <g opacity="0.24">
+    <circle cx="260" cy="240" r="118" fill="#ffffff" />
+    <circle cx="1225" cy="235" r="92" fill="#dffdf4" />
+    <circle cx="1380" cy="610" r="126" fill="#c4eaff" />
+  </g>
+  <g opacity="0.16" fill="#ffffff">
+    <rect x="180" y="520" width="210" height="100" rx="24" />
+    <rect x="1060" y="500" width="250" height="118" rx="30" />
+    <rect x="700" y="165" width="180" height="80" rx="24" />
+  </g>
+</svg>
